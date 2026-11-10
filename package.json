@@ -1,14 +1,14 @@
 {
   "name": "cloady-cfnext-panel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "CFNext subscription panel (Cloudflare Workers script) running in a container via Miniflare",
+  "description": "CFNext panel (frontend) + CFNext node worker (backend) in one container via Miniflare",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "miniflare": "^3.20241230.0"
+    "miniflare": "^3.20250718.3"
   }
 }
